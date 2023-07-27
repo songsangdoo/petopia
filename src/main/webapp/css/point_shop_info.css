@@ -1,0 +1,91 @@
+/* 공통 */
+td,th,input,select,textarea,button,table { font-family:'NanumGothic','돋움',dotum,Verdana,AppleGothic,Arial,Helvetica,sans-serif;font-size:12px; color:#666; line-height:16px; }
+hr {display:none;}
+.site_navi { width:100%; text-align:right; font-size:11px; color:#838383; border-bottom:1px solid #ddd; padding-bottom:7px;}
+
+.contents_sub { width:100%; margin:0; }
+.contents_sub table {width:100%; border-collapse:collapse;}
+
+.board_list {border-top:1px solid #464646;}
+
+#shopmenu { margin-top : 40px; }
+
+/* 판매중인 스킨 갯수 부분 */
+.board_top {width:100%; overflow:hidden;}
+.board_top .f_search {float:right; width:330px; text-align:right;} 
+.board_top .bold {float:left; width:200px; margin:0px 0;}
+
+.coment_number { font:bold 10px verdana; color:#1787f0;}
+.last2 {border-bottom:2px solid #f2f2f2; padding:10px;} 
+
+#shop_member_info { display: flex; height : 180px; text-align: center; font-weight: bold; align-items: center; justify-content: center; background-color : skyblue; }
+.name_point { font-size : 25px; color : blue; }
+
+.skinBoard .skinImage { display: table-cell; width:300px; height:130px; border:1px solid #eee; text-align:center; vertical-align: middle; margin:0 auto;}
+.skinBoard .skinInfo { display: table-cell; width:200px; height:16px; text-align:center; vertical-align: middle; margin:0 auto;}
+.skinGoods { border:2px solid #404144; margin : 10px; padding : 10px; border-radius: 10px; }
+/* 썸네일 테두리 사이즈는 width:160px; height:130px; 으로 고정. 수직/수평 가운데 정렬 */
+
+.con_title {overflow:hidden; position:relative; margin-bottom: 10px; border-bottom: 1px solid #DADADA; display: flex; justify-content: space-between;}
+
+/* 버튼 */
+.btn_write { display:inline-block; background:#5f5f5f; border:1px solid #404144;padding:6px 17px 7px 17px;}
+.btn_txt01 {color:#fff; font-weight:600;} 
+
+/* Align */
+.align_right {text-align:right; margin:10px 0; overflow:hidden;}
+.align_right button {float:right;}
+.tR {text-align:right;}
+
+/* Color */
+.txt_blue { font-weight:bold; color:#7ab5df; }
+.txt_orange { font:bold 12px verdana; color:#ff7e00; }
+
+.contents1 .con_txt{ clear:both;}    
+.contents1 {margin-top: 30px;}
+
+/* 내용 시작 */
+.pointshopGuideView {
+	display : flex;
+	margin : 90px 0 0 0;
+}
+
+.viewLeft { width : 25%; }
+.viewCenter { width : 50%; }
+.viewRight { width : 25%; }
+
+.flex { display : flex; }
+
+.rightTextAlign { padding : 30px 0 0 30px; }
+
+.pointshopGuideTitle {
+	height : 80px;
+	font-size : 2em;
+	font-weight : 900;
+	border-bottom : 1px solid gray;
+	color : #37517e;
+}
+
+.subTitle{
+	margin : 50px 0 20px 20px;
+	font-size : 20px;
+	font-weight : 900;
+	color : #37517e;
+}
+
+.impactBlue {
+	color : #37517e;
+	font-weight : bold;
+}
+
+.impactViolet {
+	color : #76377e;
+	font-weight : bold;
+}
+
+.bigImage {
+	border : 1px solid #bababa;
+	border-radius : 10px;
+	width : 310px;
+	height : 205px;
+}

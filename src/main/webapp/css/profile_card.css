@@ -1,0 +1,44 @@
+
+@font-face { font-family: 'JALNAN'; src: url("font/JALNAN.ttf"); }
+
+.profile_card { display: flex; flex-direction: column; border : 3px solid #3f3f3f; width : 650px; height : 350px; border-radius : 15px; background-color : #eff6ff; }
+
+.skin_part { display: flex; height : 170px; border-top-left-radius : 12px; border-top-right-radius : 12px; background-image: url("/images/point_shop_skin/skin06_twocat.png"); border-bottom : 1px solid gray; }
+.image_part { display: flex; width : 200px; height : 170px; justify-content: center; align-items : center; }
+.profile_part { display: flex; flex-direction: column; padding-left : 30px; }
+
+.info_part { display: flex; }
+.pet_part { 
+	width : 200px; 
+	border-right : 1px solid gray; 
+	padding : 13px 15px 10px 16px; 
+}
+.spec_part { display : flex; padding-top : 20px; }
+
+.grade { width : 180px; }
+.point_and_badge_part { display : flex; flex-direction: column; width : 270px; }
+.badge_part { display : flex; flex-direction: column; justify-content: center; height : 80px; }
+.point_part { display : flex; flex-direction: column; justify-content: center; }
+.grade_name_part { display : flex; justify-content: center; }
+.grade_image_part { display : flex; justify-content: center; padding-top : 15px;}
+
+.badge_title_part { display : flex; justify-content: center; height : 40px; }
+.badge_image_part { display : flex; justify-content: center; height : 40px; }
+
+.point_title_part { display : flex; justify-content: center; height : 35px; }
+.point_amount_part { display : flex; justify-content: center; height : 40px; }
+
+.profile_image { width : 128px; height : 128px; border-radius: 10%; border : 2px solid #2d2d2d; }
+.grade_image { width : 100px; height : 100px; border-radius: 20%; }
+
+.nickname { display: flex; height : 100px; align-items : center; font-size : 30px; }
+.nickname_text { color: #000; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; text-decoration: none; }
+.nickname_text2 { text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; font-size : 18px; font-family: 'JALNAN' }
+
+.petList {
+	display : flex;
+	border:1px solid gray;
+	border-radius : 5px;
+	padding : 5px 15px 5px 15px;
+	margin : 1px;
+}
